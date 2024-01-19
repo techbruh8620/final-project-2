@@ -11,7 +11,7 @@ const PORT = process.env.PORT;
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://final-project-chat.vercel.app",
   },
 });
 
