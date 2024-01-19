@@ -4,7 +4,7 @@ import { userApi } from "./userApi";
 export const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/auth",
+    baseUrl: "https://final-project-chat-server.onrender.com/auth",
   }),
   endpoints: (builder) => ({
     loginUser: builder.mutation({

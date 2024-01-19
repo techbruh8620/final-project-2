@@ -9,7 +9,7 @@ import Input from "../../Input/Input";
 
 import "./Chat.css";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://final-project-chat-server.onrender.com";
 
 const Chat = () => {
   const [room, setRoom] = useState("Group Chat");
