@@ -7,7 +7,7 @@ const sanitizer = require("perfect-express-sanitizer");
 const authRoutes = require("./routes/authRoutes");
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://final-project-chat.vercel.app",
   methods: "GET, HEAD, POST",
   preflightContinue: false,
   optionSuccessStatus: 204,
