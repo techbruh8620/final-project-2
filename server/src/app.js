@@ -8,7 +8,7 @@ const authRoutes = require("./routes/authRoutes");
 
 const corsOptions = {
   origin: "https://final-project-chat.vercel.app",
-  methods: "GET, HEAD, POST",
+  // methods: "GET, POST",
   preflightContinue: false,
   optionSuccessStatus: 204,
   credentials: true,
